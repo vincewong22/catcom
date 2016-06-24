@@ -1,0 +1,62 @@
+your subdomains are:
+
+mark = mark.gofindvince.com
+joanne = joanne.gofindvince.com
+josh = josh.gofindvince.com
+zac = zac.gofindvince.com
+
+
+how to setup your ftp, 
+
+use the fillzilla file, in filezilla file->import
+
+or setup the following settings: file->site manager ->new site
+
+mark:
+FTP Username: mark@gofindvince.com
+FTP Server: ftp.gofindvince.com
+FTP & explicit FTPS port: 21
+password = 101010
+
+joanne:
+FTP Username: joanne@gofindvince.com
+FTP Server: ftp.gofindvince.com
+FTP & explicit FTPS port: 21
+password = 101010
+
+josh:
+FTP Username: josh@gofindvince.com
+FTP Server: ftp.gofindvince.com
+FTP & explicit FTPS port: 21
+password = 101010
+
+zac:
+FTP Username: zac@gofindvince.com
+FTP Server: ftp.gofindvince.com
+FTP & explicit FTPS port: 21
+password = 101010
+
+your databases are all setup:
+
+replace $username with:
+
+replace $dbname with:
+$dbname = 'gofiuawo_mark';
+$dbname = 'gofiuawo_joanne';
+$dbname = 'gofiuawo_zac';
+$dbname = 'gofiuawo_josh';
+
+$dbname ='gofiuawo_josh';
+
+//example php code to connect
+$hostname ='localhost';
+$username ='gofiuawo_vince';
+$password='101010';
+$dbname = 'gofiuawo_guitardatabase';
+
+$conn = new mysqli($hostname, $username, $password, $dbname);
+
+if($conn->connect_error)
+	die('connection failed'.$conn->connect_error);
+else
+echo "<br/> connection successful";
