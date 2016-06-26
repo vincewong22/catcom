@@ -1,7 +1,12 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="../../css/viewprofile.css">
+</head>
 <?php
-include_once('appvars.php');
-
-session_start();
+require_once('startsession.php');
+require_once('appvars.php');
+$page_title = 'View Profile';
+require_once('header.php');
+require_once('navmenu.php');
 
 if(!isset($_SESSION['user_id'])){
 	echo '<a href="login.php">Please login</a>';
@@ -29,7 +34,11 @@ else
 
 
 while($row = $result->fetch_assoc()){
-
+echo '<br/>';
+if(!$row['picture'] == '')
+echo '<img src="'. IMAGE_PATH . $row['picture']. '"/>';
+else
+echo '<img src="'. APP_IMAGE_PATH . 'emptyprofile.jpg' . '"/>';
 echo '<br/> first name: ' . $row['firstname'] ; 
 echo '<br/> last name: ' . $row['lastname'] ; 
 echo '<br/> email: ' . $row['email'] ; 
@@ -42,8 +51,10 @@ if($row['gender'] == 'M')
 	echo '<br/> gender: male';
 if($row['gender'] == 'F') 
 	echo '<br/> gender: female';
+echo '<br/> profile image name: '.$row['picture'];
+
 
 }
 }
+ require_once('footer.php');
 ?>
-<br/><a href="index.php">Done viewing profile</a>

@@ -1,8 +1,11 @@
-
 <?php
 //signup form
 
+require_once('startsession.php');
 require_once('appvars.php');
+$page_title = 'Sign Up';
+require_once('header.php');
+require_once('navmenu.php');
 
 //connect to database b/c need to verify if a username alredy exists
 $conn = mysqli_connect(DB_HOST,DB_USERNAME,DB_PASSWORD,DB_NAME);
@@ -45,8 +48,6 @@ if (!empty($username) && !empty($password1) && !empty($password2) && ($password1
         echo '<p class="error">An account already exists for this username. Please use a different username.</p>';
         $username = "";
 	  }
-	  
-
 }//end of password check
 else{
 	if($password1 != $password2)
@@ -66,3 +67,6 @@ $conn->close;
 	confirm password (retype)<input type="password" name="password2" value="<?php echo $password2?>"/><br/>
 	<input type="submit" value="Sign Up" name="submit"/>
 </form>
+<?php
+ require_once('footer.php');
+?>

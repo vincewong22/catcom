@@ -1,0 +1,236 @@
+[26-Jun-2016 09:59:02 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 09:59:35 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 09:59:37 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 09:59:44 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:00:04 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:00:10 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:01:08 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:01:09 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:01:09 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:01:09 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:01:09 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:01:09 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:01:12 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:01:13 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:01:15 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:01:18 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:02:21 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:02:21 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:02:51 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:02:56 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:02:57 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:02:57 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:03:02 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:03:05 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:03:07 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:03:07 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:03:14 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:03:14 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:03:14 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:03:14 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:03:14 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:03:58 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:04:01 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:05:18 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:05:18 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:05:23 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:05:23 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:06:00 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:06:00 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:06:03 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:11:35 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:11:35 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:11:35 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:11:35 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:11:35 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:11:37 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:11:45 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:11:51 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:11:55 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:11:56 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:12:56 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:17:26 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:17:28 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:17:31 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:17:33 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:17:34 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:17:59 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:18:59 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:19:00 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:19:01 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:19:01 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:19:01 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:19:01 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:19:01 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:19:02 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:19:08 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:19:10 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:19:10 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:20:23 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:20:23 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:22:11 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:22:11 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:22:16 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:19 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:20 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:41 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:43 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:45 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:22:45 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:22:45 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:22:45 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:22:45 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:22:45 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:51 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:22:53 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:22:53 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:22:58 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:22:59 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:23:10 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:23:10 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:23:10 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:23:10 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:23:10 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:23:12 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:23:54 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:23:58 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:23:58 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:23:58 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:23:58 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:23:58 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:23:59 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:28:27 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:28:27 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:28:27 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:28:27 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:28:27 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:28:28 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:28:28 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:28:30 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:28:34 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:28:36 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:28:36 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:28:36 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 64
+[26-Jun-2016 10:28:36 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:28:36 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:28:37 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:28:37 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:28:40 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:28:40 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:28:41 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 8
+[26-Jun-2016 10:28:41 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 59
+[26-Jun-2016 10:29:25 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 12
+[26-Jun-2016 10:29:25 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 63
+[26-Jun-2016 10:29:25 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 68
+[26-Jun-2016 10:29:25 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 69
+[26-Jun-2016 10:29:25 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 70
+[26-Jun-2016 10:29:27 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:29:29 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 12
+[26-Jun-2016 10:29:29 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 63
+[26-Jun-2016 10:29:29 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 68
+[26-Jun-2016 10:29:29 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 69
+[26-Jun-2016 10:29:29 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 70
+[26-Jun-2016 10:29:30 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 12
+[26-Jun-2016 10:29:30 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 63
+[26-Jun-2016 10:31:17 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 12
+[26-Jun-2016 10:31:17 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 63
+[26-Jun-2016 10:31:24 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 12
+[26-Jun-2016 10:31:25 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:31:33 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:38:59 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:38:59 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:39:03 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:39:03 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:39:08 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:39:10 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:39:13 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:39:13 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:42:28 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 45
+[26-Jun-2016 10:42:31 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:43:13 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:43:19 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:43:21 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:43:23 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:43:27 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:43:27 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:43:31 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:43:31 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:43:35 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 44
+[26-Jun-2016 10:43:36 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 11
+[26-Jun-2016 10:43:36 America/New_York] PHP Notice:  Undefined property: mysqli::$close in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 60
+[26-Jun-2016 10:43:36 America/New_York] PHP Notice:  Undefined variable: username in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 65
+[26-Jun-2016 10:43:36 America/New_York] PHP Notice:  Undefined variable: password1 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 66
+[26-Jun-2016 10:43:36 America/New_York] PHP Notice:  Undefined variable: password2 in /home/gofiuawo/public_html/jobaccino/src/php/signup.php on line 67
+[26-Jun-2016 10:43:39 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 44
+[26-Jun-2016 10:43:44 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:44:56 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:44:56 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:45:00 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:45:00 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:46:35 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 44
+[26-Jun-2016 10:46:42 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 10:46:43 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:46:43 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:47:09 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:47:09 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:47:15 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:47:15 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:48:38 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:48:38 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:49:14 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:49:14 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:50:18 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:50:35 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:52:24 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:52:25 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:52:26 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:52:26 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:52:27 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:52:54 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:52:55 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:53:07 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:53:17 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:53:19 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:53:19 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:54:10 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:54:10 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:55:27 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:55:27 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:55:36 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:55:37 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:55:37 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:55:39 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:55:42 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:55:58 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:55:59 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 14
+[26-Jun-2016 10:55:59 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 23
+[26-Jun-2016 10:57:31 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 16
+[26-Jun-2016 10:57:31 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 25
+[26-Jun-2016 10:57:35 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:57:37 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:57:44 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 10:57:45 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:00:47 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 44
+[26-Jun-2016 11:00:51 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 11:00:53 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 16
+[26-Jun-2016 11:00:53 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 25
+[26-Jun-2016 11:00:56 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:00:59 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:01:05 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 44
+[26-Jun-2016 11:01:11 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 11:01:13 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:01:16 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:01:19 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:01:21 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 16
+[26-Jun-2016 11:01:21 America/New_York] PHP Notice:  Use of undefined constant user_id - assumed 'user_id' in /home/gofiuawo/public_html/jobaccino/src/php/viewprofile.php on line 25
+[26-Jun-2016 11:42:29 America/New_York] PHP Notice:  Undefined index: username in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 44
+[26-Jun-2016 11:42:34 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/login.php on line 9
+[26-Jun-2016 11:42:35 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:42:37 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:44:40 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:44:42 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:44:45 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:45:11 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:45:14 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:45:16 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15
+[26-Jun-2016 11:45:18 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100025 Library:100106 in /home/gofiuawo/public_html/jobaccino/src/php/editprofile.php on line 15

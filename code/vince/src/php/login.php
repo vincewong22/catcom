@@ -1,7 +1,9 @@
-
 <?php
-session_start();
+require_once('startsession.php');
 require_once('appvars.php');
+$page_title = 'Login';
+require_once('header.php');
+require_once('navmenu.php');
 if(!isset($_SESSION['user_id'])){
 	if(isset($_POST['submit'])){
 		$conn = mysqli_connect(DB_HOST,DB_USERNAME,DB_PASSWORD,DB_NAME);
@@ -26,21 +28,17 @@ if(!isset($_SESSION['user_id'])){
 			$row = $result->fetch_assoc();
 			$_SESSION['user_id'] = $row['user_id'];
 			$_SESSION['username'] = $row['username'];
-			header('Location: index.php');
+			header('Location: ../../index.php');
 		}
-		else
-			echo 'login details incorrect,';
-			echo '<a href="index.php"> return to main page</a> or try again: <br/>'; 
+		else{
+			echo 'Login details incorrect, try again';
 		}
 		echo '<br/>';
 		
 	}//check submit
 }//check user_id
-else{
-/* echo 'Your already logged in as: '. $_SESSION['username'] .'<br/>';
-echo '<a href="logout.php">Log Out</a><br/>';
-echo '<a href="index.php">Main Page</a><br/>'; */
 }
+  
 ?>
 
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
@@ -48,3 +46,7 @@ echo '<a href="index.php">Main Page</a><br/>'; */
 	password <input type="password" name="password"/><br/>
 	<input type="submit" value="Log in" name="submit"/>
 </form>
+
+<?php
+require_once('footer.php');
+?>

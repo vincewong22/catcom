@@ -1,27 +1,31 @@
-Welcome to Jobaccino <br/>
-
 <?php
-session_start();
-include_once('appvars.php');
+//start the session:
 
-if(isset($_SESSION['username'])){
-	echo '<a href="viewprofile.php">View Profile</a><br/>';
-	echo '<a href="editprofile.php">Edit Profile</a><br/>';
-	echo '<a href="logout.php">Log out (' . $_SESSION['username'].')</a><br/>';
+session_start();
+$page_title = '';
+require_once('src/php/header.php');
+require_once('src/php/appvars.php');
+require_once('src/php/navmenu.php');
+
+/* if(isset($_SESSION['username'])){
+	echo '<a href="src/viewprofile.php">View Profile</a><br/>';
+	echo '<a href="src/editprofile.php">Edit Profile</a><br/>';
+	echo '<a href="src/logout.php">Log out (' . $_SESSION['username'].')</a><br/>';
 }
 else{
-	echo '<a href="login.php">Log In</a><br/>';
-	echo '<a href="signup.php">Sign Up</a><br/>';
-}
+	echo '<a href="src/login.php">Log In</a><br/>';
+	echo '<a href="src/signup.php">Sign Up</a><br/>';
+	
+} */
 
 
 $conn = mysqli_connect(DB_HOST,DB_USERNAME,DB_PASSWORD,DB_NAME);
 
 echo '<br/>';
-if($conn->connect_error)
+/* if($conn->connect_error)
 	echo 'error connecting'.$conn->connect_error;
 else
-	echo 'success connecting...';
+	echo 'success connecting...'; */
 
 
 $sql = "SELECT * FROM USER_TABLE";
@@ -29,16 +33,19 @@ $sql = "SELECT * FROM USER_TABLE";
 $result = $conn->query($sql);
 
 echo'<br/>';
-/* if($result->num_rows >0)
+/*  if($result->num_rows >0)
 	echo 'success grabbing table';
 else
-	echo 'failure grabbing table'; */
+	echo 'failure grabbing table';  */
 
-echo ' most recent members: ';
+echo 'Most recent members: ';
 
 while($row = $result->fetch_assoc()){
 
 echo '<br/>username: ' . $row['username'] ; 
-echo ' join-date: ' . $row['join_date'] ; 
+
 }
-?>
+
+  require_once('src/php/footer.php');
+ ?>
+ 

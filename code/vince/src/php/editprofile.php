@@ -1,9 +1,13 @@
 <?php
-session_start();
-include_once('appvars.php');
+require_once('startsession.php');
+require_once('appvars.php');
+$page_title = 'Edit Profile';
+require_once('header.php');
+require_once('navmenu.php');
+
 
 if(!isset($_SESSION['user_id'])){
-	echo '<a href="login.php">Please login</a>';
+	echo 'Please login';
 	exit(); //stop executing the script
 }
 else{
@@ -30,7 +34,7 @@ $email = $row['email'];
 $city = $row['city'];
 $province = $row['province'];
 $intro = $row['intro'];
-$picture = $row['picture'];
+$old_picture = $row['picture'];
 }
 else{
 	//take modified changes
@@ -42,30 +46,46 @@ else{
     $city = mysqli_real_escape_string($conn, trim($_POST['city']));
 	$intro = mysqli_real_escape_string($conn, trim($_POST['intro']));
     $province = mysqli_real_escape_string($conn, trim($_POST['province']));
-    $picture = mysqli_real_escape_string($conn, trim($_POST['picture']));
+    //$picture = mysqli_real_escape_string($conn, trim($_POST['picture']));
+	$picture = $_FILES['picture']['name'];
 	
+	// Validate and move the uploaded picture file, if necessary
+    if (!empty($picture)) {
+		$sql = "UPDATE USER_TABLE SET picture = '$picture' WHERE user_id =".$_SESSION['user_id'];
+		if($conn->query($sql)){
+			echo'Profile successfully updated';
+		}
+		else
+			echo'Profile failed to update';
+	
+        $target = IMAGE_PATH . $picture;
+		echo $target;
+	if(move_uploaded_file($_FILES['picture']['tmp_name'],$target))
+		echo 'file moved';
+	else
+		echo 'file not moved';
+    }
+	
+	//update profile
 	if (!empty($firstname) && !empty($lastname) && !empty($gender) && !empty($birthdate) && !empty($city) && !empty($province)) {
 	 $sql = "UPDATE USER_TABLE SET firstname = '$firstname', lastname = '$lastname', gender = '$gender', birthdate = '$birthdate', 
 	 city = '$city', email = '$email', province = '$province' , intro='$intro' WHERE user_id =".$_SESSION['user_id'];
 	 echo '<br/>';
-	if($conn->query($sql))
+	if($conn->query($sql)){
 		echo'Profile successfully updated';
+	}
 	else
 		echo'Profile failed to update';
 	}
 }
-	
 
-
-	
     
 }//end of else
 
-
+  require_once('footer.php');
 ?>
 
- <form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-    <input type="hidden" name="MAX_FILE_SIZE" value="<?php echo MM_MAXFILESIZE; ?>" />
+ <form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"> 
     <fieldset>
       <legend>Personal Information</legend>
       <label for="firstname">First name:</label>
@@ -93,4 +113,3 @@ else{
     </fieldset>
     <input type="submit" value="Save Profile" name="submit" />
   </form>
-  <a href="index.php">Done editing profile</a>
