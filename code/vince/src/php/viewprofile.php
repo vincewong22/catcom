@@ -4,7 +4,7 @@
 <?php
 require_once('startsession.php');
 require_once('appvars.php');
-$page_title = 'View Profile';
+$page_title = ' View Profile';
 require_once('header.php');
 require_once('navmenu.php');
 

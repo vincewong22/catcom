@@ -3,7 +3,7 @@
 
 require_once('startsession.php');
 require_once('appvars.php');
-$page_title = 'Sign Up';
+$page_title = ' Sign Up';
 require_once('header.php');
 require_once('navmenu.php');
 
@@ -36,8 +36,6 @@ if (!empty($username) && !empty($password1) && !empty($password2) && ($password1
 	if($conn->query($sql)){
 	echo '<br/>';
 	echo 'Your new account has been successfully created';
-	echo '<br/>';
-	echo '<a href="login.php">Go to login page</a>';
 	exit();
 	}
 	else

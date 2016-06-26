@@ -1,7 +1,7 @@
 <?php
 require_once('startsession.php');
 require_once('appvars.php');
-$page_title = 'Login';
+$page_title = ' Login';
 require_once('header.php');
 require_once('navmenu.php');
 if(!isset($_SESSION['user_id'])){

@@ -3,7 +3,7 @@
 
 require_once('startsession.php');
 require_once('appvars.php');
-$page_title = 'Change password';
+$page_title = ' Change password';
 require_once('header.php');
 require_once('navmenu.php');
 
