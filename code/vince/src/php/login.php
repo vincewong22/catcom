@@ -1,7 +1,7 @@
 <?php
 require_once('startsession.php');
 require_once('appvars.php');
-$page_title = ' Login';
+$page_title = 'Login';
 require_once('header.php');
 require_once('navmenu.php');
 if(!isset($_SESSION['user_id'])){
@@ -40,12 +40,19 @@ if(!isset($_SESSION['user_id'])){
 }
   
 ?>
-
+<div class="container">
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-	username <input type="text" name="username" value="<?php echo $_POST['username']?>"/><br/>
-	password <input type="password" name="password"/><br/>
-	<input type="submit" value="Log in" name="submit"/>
+	<div class="form-group">
+		<label for="username">Username:</label>
+		<input type="text" id="username" class="form-control" name="username" value="<?php echo $_POST['username']?>"/><br/>
+	</div>
+	<div class="form-group">
+		<label for="password">Password:</label>
+		<input type="password" id="password" class="form-control" name="password"/><br/>
+		<input type="submit" value="Log in" name="submit"/>
+	</div>
 </form>
+</div>
 
 <?php
 require_once('footer.php');

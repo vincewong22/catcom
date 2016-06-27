@@ -59,12 +59,14 @@ $conn->close;
 
 
 ?>
+<div class="container">
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 	username <input type="text" name="username" value="<?php echo $username?>"/><br/>
 	password <input type="password" name="password1" value="<?php echo $password1?>"/><br/>
 	confirm password (retype)<input type="password" name="password2" value="<?php echo $password2?>"/><br/>
 	<input type="submit" value="Sign Up" name="submit"/>
 </form>
+</div>
 <?php
  require_once('footer.php');
 ?>
