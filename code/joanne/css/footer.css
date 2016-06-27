@@ -1,0 +1,17 @@
+.twitter {
+	float: right;
+}
+
+.copyright {
+	float: left;
+}
+
+.footer{
+	background-color: black;
+	height:20px;
+	color: white;
+	position: fixed; 
+	bottom: 0;
+	width:100%;
+	font-size:10px;
+}

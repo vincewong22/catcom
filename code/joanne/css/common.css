@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Antipasto;
+    src: url(../fonts/Antipasto_regular.otf);
+}
+.pagename{
+	padding: none;
+	font-size: .5em;
+	background-color: #424242;
+}
+.sitename {
+	font-family: Antipasto;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
