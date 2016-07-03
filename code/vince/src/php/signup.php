@@ -34,6 +34,11 @@ $username = mysqli_real_escape_string($conn, trim($_POST['username']));
 $password1 = mysqli_real_escape_string($conn, trim($_POST['password1']));
 $password2 = mysqli_real_escape_string($conn, trim($_POST['password2']));
 $email = mysqli_real_escape_string($conn, trim($_POST['email']));
+$profiletype = $_POST['profiletype'];
+
+//echo'profile type = ' . $_POST['profiletype'];
+//echo'profile type = ' . $_POST['email'];
+
 
 if (!empty($username) && !empty($email)&& !empty($password1) && !empty($password2) && ($password1 == $password2)) {
 
@@ -42,8 +47,8 @@ if (!empty($username) && !empty($email)&& !empty($password1) && !empty($password
 	  $result = $conn->query($sql);
 	  if($result->num_rows ==0){
 	 
-	 $sql = "INSERT INTO USER_TABLE (username,password)
-			VALUES ('$username',SHA('$password1'))";
+	 $sql = "INSERT INTO USER_TABLE (username,password,email,profiletype)
+			VALUES ('$username',SHA('$password1'),'$email','$profiletype')";
 			
 	if($conn->query($sql)){
 	echo '<br/>';
@@ -101,6 +106,11 @@ $conn->close;
 			<div class="form-group">
 			<label for="profiletype" class="control-label">Account type:</label>
 			<label class="radio-inline">
+			</div>
+			
+			
+			
+			<div class="form-group">
 			<input type="radio" class="radio-inline" name="profiletype" value="normal" checked="checked"> Regular
 				</label>
 			<label class="radio-inline">
@@ -110,6 +120,7 @@ $conn->close;
 				<input type="radio" class="radio-inline" name="profiletype" value="shop">Coffee Shop<br>
 			</label>
 			</div>
+			
 		<div class="form-group">
 		<textarea class="form-control" placeholder="<?php echo "".$legal;?>"  readonly></textarea>
 		</div>

@@ -44,7 +44,7 @@ echo '<br/> last name: ' . $row['lastname'] ;
 echo '<br/> email: ' . $row['email'] ; 
 echo '<br/> birthdate: ' . $row['birthdate'] ; 
 echo '<br/> join date: ' . $row['join_date'] ;
-
+echo '<br/> intro: ' . $row['intro'] ;
 if($row['gender'] == 'N') 
 	echo '<br/> gender: prefer not to say';
 if($row['gender'] == 'M') 

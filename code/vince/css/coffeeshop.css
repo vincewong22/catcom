@@ -1,0 +1,36 @@
+#profile {
+	border: 2px solid;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+#profPicture {
+	border-radius: 20%;
+	height: auto;
+	max-width: 100%;
+}
+
+#pic {
+	text-align: center;
+}
+
+#info {
+	text-align: center;
+}
+
+#name {
+	font-weight: bold;
+}
+
+.collection {
+	height: auto;
+	max-width: 100%;
+}
+
+h5 {
+	float: left;
+}
+
+.main_image{
+	max-height:300px;
+}
