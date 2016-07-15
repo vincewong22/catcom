@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
 <?php
 //start the session:
 
@@ -19,14 +20,22 @@ $sql = "SELECT * FROM USER_TABLE WHERE user_id =".$_SESSION['user_id'];
 
 $result = $conn->query($sql);
 
+echo '<div class="container">';
 while($row = $result->fetch_assoc()){
 echo '<br/>profile type: ' . $row['profiletype']; 
 }
+
+?>
+
+
+
+<?php
 		
 		
 
 	echo '<br/>logged in';
 }
+mysqli_close($conn);
 require_once('src/php/footer.php');
  ?>
  

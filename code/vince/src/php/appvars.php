@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST','localhost');
-define('DB_USERNAME','gofiuawo_vince');
-define('DB_PASSWORD','101010');
-define('DB_NAME','gofiuawo_guitardatabase');
+define('DB_HOST','database.jobaccino.com');
+define('DB_USERNAME','bcit');
+define('DB_PASSWORD','bcitbcit');
+define('DB_NAME','coffee_database');
 define('IMAGE_PATH','../../images/profile_images/');
 define('APP_IMAGE_PATH','../../images/app_images/');
 ?>

@@ -53,12 +53,33 @@ $conn->close;
 
 
 ?>
-<form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
-	oldpassword: <input type="text" name="oldpassword" value="<?php echo $oldpassword?>"/><br/>
-	password <input type="password" name="password1" value="<?php echo $password1?>"/><br/>
-	confirm password (retype)<input type="password" name="password2" value="<?php echo $password2?>"/><br/>
+<div class="container">
+<fieldset>
+<legend>Change password for: <?php echo $_SESSION['username'];?></legend>
+<form name="myform" data-toggle="validator" role="form" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+	
+	<div class="form-group">
+	<label for="oldpassword">Old Password:</label>
+	<input type="password" class="form-control" data-minlength="1" name="oldpassword"  data-error="Enter your old password"value="<?php echo $oldpassword?>"/><br/>
+	<div class="help-block with-errors"></div>
+	</div>
+	
+	<div class="form-group">
+	<label for="password1">Password:</label>
+	<input type="password" class="form-control" data-minlength="6" name="password1" data-error="Needs to be a minimum of 6 characters" value="<?php echo $password1?>"/><br/>
+	<div class="help-block with-errors"></div>
+	</div>
+	
+	<div class="form-group">
+	<label for="password2">Confirm Password (retype):</label>
+	<input type="password" class="form-control" data-minlength="6" name="password2" data-error="Needs to be a minimum of 6 characters" value="<?php echo $password2?>"/><br/>
+	<div class="help-block with-errors"></div>
+	</div>
+	
 	<input type="submit" value="Change Password" name="submit"/>
 </form>
+</fieldset>
+</div>
 <?php
  require_once('footer.php');
 ?>

@@ -183,7 +183,7 @@ else{
 	  
 	  <div class="form-group">
 	  <label for="intro">About: </label>
-      <textarea class="form-control" id="intro" name="intro" rows="4" cols="50" placeholder="Describe yourself here...(max 150 chars)"></textarea>
+      <textarea class="form-control" id="intro" name="intro" rows="4" cols="50"><?php if (!empty($intro)) echo $intro; ?></textarea>
 	  </div>
 	  
 	  <div class="form-group">

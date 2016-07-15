@@ -10,7 +10,8 @@ $LOGOUT = 'logout.php';
 $LOGIN = 'login.php';
 $SIGNUP = 'signup.php';
 $CHANGE_PASSWORD = 'changepassword.php';
-
+$JOB_BOARD = 'jobboard.php';
+$POST_JOB = 'postjob.php';
 $ROOT = '../../';
 $PHP_FOLDER = 'src/php/';
 
@@ -56,9 +57,12 @@ $PROFILE = 'myProfileBarista.php';
 			echo ' <li><a href="'.$PROFILE.'"><span class="glyphicon glyphicon-eye-open"></span> View Profile</a></li>';
 			echo ' <li><a href="'.$EDIT_PROFILE.'"><span class="glyphicon glyphicon-edit"></span> Edit Profile</a></li>';
 			echo ' <li><a href="'.$CHANGE_PASSWORD.'"><span class="glyphicon glyphicon-cog"></span> Change Password</a></li>';
+			echo '<li><a href='.$JOB_BOARD.'><span class="glyphicon glyphicon-list-alt"></span> Job board</a></li>';
+			echo ' <li><a href="'.$POST_JOB.'"><span class="glyphicon glyphicon-cog"></span> Post Job</a></li>';
 			}
 			else{ //not logged in
 				echo '<li><a href='.$ROOT.$INDEX.'><span class="glyphicon glyphicon-home"></span> Home</a></li>';	
+				echo '<li><a href='.$JOB_BOARD.'><span class="glyphicon glyphicon-list-alt"></span> Job board</a></li>';
 			}
 			}
 			//logged in viewing non-index.php
@@ -68,10 +72,12 @@ $PROFILE = 'myProfileBarista.php';
 				echo ' <li><a href="'.$PHP_FOLDER.$PROFILE.'"><span class="glyphicon glyphicon-eye-open"></span> View Profile</a></li>';
 				echo ' <li><a href="'.$PHP_FOLDER.$EDIT_PROFILE.'"><span class="glyphicon glyphicon-edit"></span> Edit Profile</a></li>';
 				echo ' <li><a href="'.$PHP_FOLDER.$CHANGE_PASSWORD.'"><span class="glyphicon glyphicon-cog"></span> Change Password</a></li>';
+				echo '<li><a href='.$PHP_FOLDER.$JOB_BOARD.'><span class="glyphicon glyphicon-list-alt"></span> Job board</a></li>';
+				echo ' <li><a href="'.$PHP_FOLDER.$POST_JOB.'"><span class="glyphicon glyphicon-cog"></span> Post Job</a></li>';
 			}
 			else{ // not logged in 
 				echo '<li><a href='.$ROOT.$INDEX.'><span class="glyphicon glyphicon-home"></span> Home</a></li>';
-	
+				echo '<li><a href='.$PHP_FOLDER.$JOB_BOARD.'><span class="glyphicon glyphicon-list-alt"></span> Job board</a></li>';
 			}
 			}
 			?> 
